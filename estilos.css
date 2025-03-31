@@ -96,3 +96,9 @@ p::first-letter{
     color: red;
     font-size: 50px;
 }
+
+.capibara1, .capibara2, .capibara3{
+    width: 100px;
+    height: 100px;
+    background-color: violet
+}
