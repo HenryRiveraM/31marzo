@@ -1,0 +1,35 @@
+div{
+    background-color: blue;
+    border-radius: 10px;
+    height: 250px;
+    width: 250px;
+}
+
+p{
+    color:orange;
+}
+
+.caja{
+    width: 150px;
+    height: 150px;
+    background-color: green;
+}
+
+.otraCaja{
+    width: 150px;
+    height: 150px;
+    background-color: rgba(0,0,255,0.4);
+}
+
+.unaCajaMas{
+    width: 150px;
+    height: 150px;
+    background-color: #E60E99;
+}
+
+.capibara{
+    width: 150px;
+    height: 150px;
+    /* hls (color saturacion luminosidad )*/
+    background-color: hsl(0, 100%, 20%);
+}
