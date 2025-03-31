@@ -2,6 +2,7 @@
     color: green;
     font-weight: bolder;
 }
+
 div{
     background-color: blue;
     border-radius: 10px;
@@ -41,4 +42,15 @@ p{
     height: 150px;
     /* hls (color saturacion luminosidad )*/
     background-color: hsl(0, 100%, 20%);
+}
+
+#soyUnico{
+    width: 150px;
+    height: 150px;
+    background-color: gray;
+    
+}
+
+a[title]{
+    color: red;
 }
