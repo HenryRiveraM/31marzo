@@ -1,4 +1,4 @@
-*{
+/**{
     color: green;
     font-weight: bolder;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -29,7 +29,7 @@ p{
     /* 0 es transparente y 1 es opaco */
     /* rgba(0,0,255,0.4) es azul con 40% de opacidad */
     /* rgba(0,0,255,1) es azul opaco */
-    background-color: rgba(0,0,255,0.4);
+    /*background-color: rgba(0,0,255,0.4);
 }
 
 .unaCajaMas{
@@ -42,7 +42,7 @@ p{
     width: 150px;
     height: 150px;
     /* hls (color saturacion luminosidad )*/
-    background-color: hsl(0, 100%, 20%);
+    /*background-color: hsl(0, 100%, 20%);
 }
 
 #soyUnico{
@@ -109,4 +109,83 @@ p::first-letter{
 
 .padre div{
     color: gray;
+}
+
+footer{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    /* con esta funcion el footer no tapa el contenido ya creado */
+
+   /* margin-bottom: -40px;
+}
+*/
+p#unico.foo.bar{
+    color: green;
+}
+
+p#unico.foo.bar.baz{
+    color: red;
+}
+
+.main {
+    color: rebeccapurple;
+    border: 2px solid #ccc;
+    padding: 1em;
+}
+
+.special {
+    color: red;
+    font-weight: bold;
+}
+
+.rectangulo{
+    width: 450px;
+    height: 250px;
+    background-color: darkgoldenrod;
+    border-radius: 10px;
+}
+
+.caja{
+    width: 50%;
+    height: 250px;
+    background-color: green;
+    border-radius: 10px;
+}
+
+.cajaInterior{
+    width: 50%;
+    height: 50%;
+    background-color: blue;
+    border-radius: 10px;
+}
+.cajaInterior p{
+    font-size: 5rem;
+}
+
+body{
+    margin: 0;
+    
+}
+
+div{
+    width: 250px;
+    height: 250px;
+    background-color: blueviolet;
+    /*padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;*/
+    padding: 25px;
+    /*border-left: 12px solid green;
+    border-right: 12px solid green;
+    border-top: 12px solid green;
+    border-bottom: 12px dashed green;*/
+    border: 12px solid yellow;
+    margin: 25px;
 }
